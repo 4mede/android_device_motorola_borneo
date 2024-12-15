@@ -26,3 +26,28 @@ BUILD_FINGERPRINT := "motorola/borneo_retail/borneo:11/RZBS31.Q2-143-27-25/418ef
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=borneo_retail \
     PRIVATE_BUILD_DESC="borneo_retail-user 11 RZBS31.Q2-143-27-25 418ef release-keys"
+
+# Everest Flags
+# Maintainer name for Everest
+
+EVEREST_MAINTAINER := "b"
+
+# Adding Blur support
+
+TARGET_SUPPORTS_BLUR := false
+
+# For UDFPS devices
+
+TARGET_HAS_UDFPS := false
+
+EXTRA_UDFPS_ANIMATIONS := false
+
+# Build GAPPS\Vanilla
+
+WITH_GAPPS := false
+
+# Quick switch (add more than one Launcher in build)
+
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
